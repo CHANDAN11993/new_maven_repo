@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    dockerimagename = "chandansn/my-tomcat"
+    dockerimagename = "chandansn/jenkins-repo"
     registry = "https://hub.docker.com/"
     registryCredential = 'my-docker'
     dockerImage = ""	  
