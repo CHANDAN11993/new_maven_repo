@@ -9,9 +9,7 @@ pipeline {
 	tools{
         maven '3.8.6'
     }
-  agent {
-  label 'my-docker-slave'
-  }
+  agent any
   stages {
     stage('Cloning Git') {
       steps {
